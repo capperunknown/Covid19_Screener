@@ -35,9 +35,3 @@ def lauchGmail(browser):
 browser = webdriver.Chrome(executable_path=r"/Users/adilmohammad/Desktop/Covid19_Screener/chromedriver")
 
 lauchGmail(browser)
-'''from datetime import date
-today = date.today()
-
-d2 = today.strftime("%B %d, %Y")
-print(d2)'''
-
