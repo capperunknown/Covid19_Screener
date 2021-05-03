@@ -3,9 +3,9 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import date
 
-email = "abdul.hafeezm02@gmail.com" # the email where you sent the email
+email = "abdul.hafeezm02@gmail.com" 
 password = "C@maro4Ever!"
-send_to_email = "mohammadadil301@gmail.com" # for whom
+send_to_email = "k.burrell@mistersafetyshoes.com"
 
 today = date.today()
 dates = today.strftime("%B %d, %Y")
