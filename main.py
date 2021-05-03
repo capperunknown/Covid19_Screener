@@ -52,6 +52,6 @@ def lauchGmail(browser):
 
     while(True):
         pass
-browser = webdriver.Chrome(executable_path=r"/Users/adilmohammad/Desktop/Covid19_Screener/chromedriver")
+browser = webdriver.Chrome(executable_path=r"/Users/adilmohammad/Desktop/VS_CODE/chromedriver")
 
-lauchGmail(browser)
+launchScreener(browser)
