@@ -20,10 +20,9 @@ def launchScreener(browser):
         time.sleep(0.2)
     time.sleep(0.3)
     browser.find_element_by_xpath('//*[@id="reach-skip-nav"]/div[2]/div[2]/a/div').click()
-    while(True):
-        pass
 
-def lauchGmail(browser):
+
+def launchGmail(browser):
     today = date.today()
     dates = today.strftime("%B %d, %Y")
 
@@ -33,7 +32,7 @@ def lauchGmail(browser):
     email.send_keys(Keys.ENTER)
     time.sleep(2)
     password = browser.find_element_by_xpath('//*[@id="password"]/div[1]/div/div[1]/input')
-    password.send_keys('C@maro4Ever!')
+    password.send_keys('')
     password.send_keys(Keys.ENTER)
     time.sleep(2)
     #browser.find_element_by_xpath('//*[@id=":b4"]/div/div').click()
@@ -52,6 +51,8 @@ def lauchGmail(browser):
 
     while(True):
         pass
+
 browser = webdriver.Chrome(executable_path=r"/Users/adilmohammad/Desktop/VS_CODE/chromedriver")
 
 launchScreener(browser)
+browser.quit()

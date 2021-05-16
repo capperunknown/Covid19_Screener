@@ -4,8 +4,9 @@ from email.mime.multipart import MIMEMultipart
 from datetime import date
 
 email = "abdul.hafeezm02@gmail.com" 
-password = "C@maro4Ever!"
-send_to_email = "k.burrell@mistersafetyshoes.com"
+password = ""
+#send_to_email = "k.burrell@mistersafetyshoes.com"
+send_to_email = "capper.unknown@protonmail.com"
 
 today = date.today()
 dates = today.strftime("%B %d, %Y")
