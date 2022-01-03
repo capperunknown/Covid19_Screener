@@ -23,14 +23,9 @@ public class emailer {
 
 	public static void sendEmail(){
 
-		final String username = "abdul.hafeezm02@gmail.com";// the email address of the sender
-		final String password = "";// password for senders email
-		
-		Scanner scan = new Scanner(System.in);
-		System.out.println("Send email? 1.YES 2.NO");
-		int ans = scan.nextInt();
-		scan.nextLine();
-		
+		final String username = "REDACTED";// the email address of the sender
+		final String password = "REDACTED";// password for senders email
+				
 		Properties props = new Properties();
 		props.put("mail.smtp.starttls.enable", "true");
 		props.put("mail.smtp.auth", "true");
